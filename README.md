@@ -1,1 +1,52 @@
-This project is an attempt to create a tracker for the latest COVID-19 epidemic using ReactJS. It is a recreation of the project tutorial of https://www.youtube.com/watch?v=khJlrj3Y6Ls&list=PLverXo_Mi1Yh7HBgN5cQxvz1DVuXIG8cF&index=2&t=0s by JSMastery channel (Cheers to the guy. Amazing person). Apart from the standard ReactJS code and some NodeJS code, the API used for COVID 19 tracking https://covid19.mathdro.id/api. This project is publicly available and free to be forked and improved by anyone. No Trolls and Pranks please.
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
+
+## Authors
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
